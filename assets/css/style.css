@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .head__main {
-    width: 55%;
+    width: 67%;
 }
 
 .head__main ul {
@@ -82,8 +82,9 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
-.head__main ul li a{
+.head__main ul li a {
     color: var(--p--colorBlack);
+    font-size: 14px;
 }
 
 .head__right {
