@@ -19,14 +19,10 @@ var swiper = new Swiper(".banner__swiper", {
   {
     delay: 3000
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  },
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true,
-  // },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev"
+  // }
 });
 
 
@@ -40,6 +36,11 @@ var swiper = new Swiper(".gallery__swiper", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+
+  },
+  autoplay: 
+  {
+    delay: 9000,
   },
   navigation: {
     nextEl: ".swiper-button-next",
