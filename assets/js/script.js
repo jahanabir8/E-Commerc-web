@@ -1,3 +1,16 @@
+
+// ====================================================
+// 		    NAVBAR MEGA MENU JS
+// ====================================================
+$(".mega-menu-item").hover(function() {
+	let key = $(this).data('key');
+    $(this).find('.mega__menu'+key).removeClass('d-none');
+}, function() {
+    $('.mega__menu').addClass('d-none');
+});
+
+
+
 // mobile menu
 $(".menu__icon").click(function(){
     $(".mobile__menu").addClass("open");
@@ -7,6 +20,9 @@ $(".menu__icon").click(function(){
 $(".cross__btn").click(function(){
     $(".mobile__menu").removeClass("open");
   })
+
+
+
 
 
 // banner swiper
@@ -24,6 +40,9 @@ var swiper = new Swiper(".banner__swiper", {
   //   prevEl: ".swiper-button-prev"
   // }
 });
+
+
+
 
 
 // gallery swiper
@@ -68,6 +87,10 @@ var swiper = new Swiper(".gallery__swiper", {
 
 });
 
+
+
+
+
 // tabs
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
@@ -87,6 +110,9 @@ tabs.forEach(tab => {
 })
 
 
+
+
+
 // customers review
 var swiper = new Swiper(".review__Swiper", {
   navigation: {
@@ -100,6 +126,10 @@ var swiper = new Swiper(".review__Swiper", {
     }
 });
     
+
+
+
+
 // footer swiper
 var swiper = new Swiper(".footer__swiper", {
   slidesPerView: 7,
@@ -133,7 +163,9 @@ var swiper = new Swiper(".footer__swiper", {
   })
 
 
-  // product dets 
+
+
+// product dets 
 var swiper = new Swiper(".myproduct", {
         spaceBetween: 10,
         slidesPerView: 4,
@@ -150,6 +182,9 @@ var swiper = new Swiper(".myproduct", {
           swiper: swiper,
         },
       });
+
+
+
 
 // increament
 $(document).ready(function() {
@@ -172,6 +207,5 @@ $(document).ready(function() {
     input.val(value);
   })
 });
-// increament
 
 
