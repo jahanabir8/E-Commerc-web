@@ -35,9 +35,6 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* =====header section start here===== */
-
-
-
 .header__section{
     padding: 10px 0;
     background-color: var(--p--colorWhite);
@@ -78,13 +75,18 @@ h1, h2, h3, h4, h5, h6{
 
 .head__main ul {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
+.head__main ul li{
+    margin-right: 10px;
+}
+
+
+
 .head__main ul li a {
     color: var(--p--colorBlack);
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,6 +101,9 @@ h1, h2, h3, h4, h5, h6{
     justify-content: space-between;
     align-items: center;
     width: 10%;
+}
+
+.head__right a{
     color: var(--p--mainColor);
 }
 
@@ -129,6 +134,8 @@ h1, h2, h3, h4, h5, h6{
     padding: 14px 0;
     border-bottom: 1px solid var(--p--mainColor);
 }
+
+
 
 .mobile__menu ul li a{
     color: var(--p--colorWhite);
@@ -201,6 +208,7 @@ h1, h2, h3, h4, h5, h6{
 .mega__menu {
     position: absolute;
     padding: 10px;
+    max-width: 1387px;
     height: 555px;
     background-color: #fff;
     right: 50%;
@@ -210,6 +218,10 @@ h1, h2, h3, h4, h5, h6{
     overflow-x: hidden;
     z-index: 999;
     display: none;
+}
+
+.head__main ul li:hover .mega__menu{
+    display: block;
 }
 
 .mega__list ul {
@@ -436,7 +448,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 10px;
 }
 
-.product__image a {
+.product__image .show__once a {
     position: absolute;
     top: 65%;
     /* left: 10%; */
@@ -515,7 +527,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .product__cart a {
-    font-size: 13px;
+    font-size: 15px;
     color: var(--p--colorWhite);
     background-color: var(--p--colorBlack);
     padding: 10px 15px;
@@ -1056,3 +1068,128 @@ ul.footer__links li a:hover, .footer__social a:hover{
     color: #fff;
 }
 /* =====copyright===== */
+
+
+
+/* ==================================
+       product page start here
+================================== */
+.product__slide{
+    margin-top: 30px;
+}
+
+.prodcut__slide .slide__top{
+    padding: 10px 0;
+}
+
+.product__order {
+    margin-top: 30px;
+}
+
+.product__order .oder__title {
+    display: flex;
+}
+
+.product__order .order__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__order .order__title p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.product__order .order__title .order__review i.fas.fa-star {
+    color: var(--p--pinkColor);
+}
+
+.product__order .order__title .order__review span {
+    margin-left: 21px;
+}
+
+.product__order .order__title2 p {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.product__order .order__title2 span {
+    font-weight: bold;
+}
+
+
+/* swiper */
+.myproduct .swiper-slide img{
+    border-radius: 50%;
+    border: 1px solid darkgrey;
+}
+/* swiper */
+
+/* increament */
+.quantity input {
+    width: 35px;
+    text-align: center;
+    outline: none;
+    padding: 10px;
+}
+
+.quantity span {
+    border: 1px solid red;
+    padding: 15px 10px;
+    margin-right: -6px;
+}
+
+a.quantity__plus span {
+    margin-left: -6px;
+}
+
+.order__cart {
+    display: flex;
+    align-items: center;
+}
+
+.order__button {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.order__button a:first-child {
+    color: #ffff;
+    background-color: #000;
+    padding: 12px;
+    width: 190px;
+    text-align: center;
+}
+
+.order__button a i.fas.fa-heart {
+    font-size: 34px;
+    padding: 7px;
+    background-color: #000;
+    color: #Fff;
+}
+
+.order__button a:last-child{
+    margin-left: 5px;
+}
+
+.order__cart .product__info {
+    padding: 20px;
+}
+
+.product__order .product__info {
+    padding: 19px;
+}
+
+.product__order .product__info p {
+    font-size: 12px;
+    margin-bottom: 4px;
+    font-weight: 500;
+    color: darkslategray;
+}
+/* increament */
+/* ==================================
+       product page end here
+================================== */

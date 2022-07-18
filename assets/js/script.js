@@ -114,25 +114,64 @@ var swiper = new Swiper(".footer__swiper", {
     {
       delay: 2000,
     },
-
-  breakpoints: {
-    
-    1024: {
-      slidesPerView: 7
-    },
-    768: {
-      slidesPerView: 4
-    },
-    575: {
-      slidesPerView: 3
-    },
-    320: {
-      slidesPerView: 2
+    breakpoints: {
+      1024: {
+        slidesPerView: 7
+      },
+      768: {
+        slidesPerView: 4
+      },
+      575: {
+        slidesPerView: 3
+      },
+      320: {
+        slidesPerView: 2
+      }
     }
     
 
-  }
+  })
 
 
+  // product dets 
+var swiper = new Swiper(".myproduct", {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".myproduct2", {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+
+// increament
+$(document).ready(function() {
+  const minus = $('.quantity__minus');
+  const plus = $('.quantity__plus');
+  const input = $('.quantity__input');
+  minus.click(function(e) {
+    e.preventDefault();
+    var value = input.val();
+    if (value > 1) {
+      value--;
+    }
+    input.val(value);
+  });
+  
+  plus.click(function(e) {
+    e.preventDefault();
+    var value = input.val();
+    value++;
+    input.val(value);
+  })
 });
+// increament
+
 
