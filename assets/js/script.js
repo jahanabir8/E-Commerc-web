@@ -11,6 +11,22 @@ $(".mega-menu-item").hover(function() {
 
 
 
+
+// ====================================================
+// 		    SEARCH BOX TOGGLE JS
+// ====================================================
+$("#search_btn").click(function() {
+    $('#search_box').toggle();
+});
+$("#close_btn").click(function() {
+    $('#search_box').hide();
+});
+
+// search-box
+
+
+
+
 // mobile menu
 $(".menu__icon").click(function(){
     $(".mobile__menu").addClass("open");

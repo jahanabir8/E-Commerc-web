@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/add-to-cart-popup-modal.css">
+    <link rel="stylesheet" href="assets/css/search-box.css">
 </head>
 <body>
     
@@ -182,8 +183,10 @@
                                         <div class="col-lg-4">
                                             <div class="important__link">
                                                 <p>Important Links</p>
-                                                <a href="#"><img src="assets/image/section__img/important1.jpg" alt="image"></a>
-                                                <a href="#"><img src="assets/image/section__img/important2.jpg" alt="image"></a>
+                                                <div class="d-flex">
+                                                    <a href="#"><img src="assets/image/section__img/important1.jpg" alt="image"></a>
+                                                    <a href="#"><img src="assets/image/section__img/important2.jpg" alt="image"></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -348,11 +351,24 @@
                         </ul>
                     </div>
                     <div class="head__right">
-                        <a href="#"><i class="fal fa-search"></i></a>
+                        <a href="#" id="search_btn"><i class="fal fa-search"></i></a>
                         <a href="#"><i class="fal fa-user"></i> </a>
                         <a href="#"><i class="fal fa-heart"></i> <span>0</span> </a>
                         <a href="#"><i class="fal fa-shopping-bag"></i> <span>1</span> </a>
                     </div>
+
+                    <div class="search-box" id="search_box" style="display: none">
+                        <div class="search-icon">
+                            <button type="submit">
+                                <i class="fal fa-search"></i>
+                            </button>
+                        </div>
+                        <input type="text" placeholder="Enter Search">
+                        <div class="close-icon" id="close_btn">
+                            <i class="fal fa-times"></i>
+                        </div>
+                    </div>
+
                     <div class="menu__icon">
                         <i class="fas fa-bars"></i>
                     </div>

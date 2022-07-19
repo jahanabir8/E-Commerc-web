@@ -271,9 +271,14 @@ h1, h2, h3, h4, h5, h6{
     padding: 6px 0;
 }
 
-.important__link img {
+.important__link a {
     width: 211px;
     height: 100px;
+    margin: 5px 20px 0 0;
+}
+.important__link img {
+    width: 100%;
+    height: 100%;
 }
 
 /* mega menu */
