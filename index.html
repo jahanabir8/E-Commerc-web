@@ -15,9 +15,23 @@
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/add-to-cart-popup-modal.css">
 </head>
 <body>
     
+
+        <!-- ADD TO CART POPUP MODAL -->
+        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                popup content
+            </div>
+        </div>
+
+
 
         <!-- header section start -->
         <header class="header__section">
@@ -492,9 +506,16 @@
                                             <P class="child">
                                                 <span>330$</span> 230$</P>
                                         </div>
+
                                         <div class="product__cart">
-                                            <a href="#"> <i class="fas fa-shopping-bag"></i> ADD TO CART</a>
+                                            <!-- <a href="#"> <i class="fas fa-shopping-bag"></i> ADD TO CART</a> -->
+
+                                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                                <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                            </button>
+
                                         </div>
+
                                         <div class="best__seller">
                                             <img src="assets/image/bg/best__Seller1.png" alt="image">
                                             <img src="assets/image/bg/best__Seller2.png" alt="image">

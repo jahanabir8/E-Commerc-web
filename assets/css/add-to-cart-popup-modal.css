@@ -1,0 +1,11 @@
+.offcanvas-top {
+    top: 30px;
+    right: 0;
+    width: 90%;
+    left: 0%;
+    height: 30vh;
+    max-height: 100%;
+    border-bottom: 1pxsolidrgba(0,0,0,.2);
+    transform: translateY(-100%);
+    margin: 0 auto;
+}
