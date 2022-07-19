@@ -73,22 +73,22 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .head__main {
-    width: 67%;
+    width: 62%;
 }
 
-.head__main ul {
+.head__main > ul {
     display: flex;
     align-items: center;
 }
 
-.head__main ul li{
+.head__main > ul > li{
     margin-right: 10px;
     padding: 20px 0;
 }
 
 
 
-.head__main ul li a {
+.head__main > ul > li > a {
     color: var(--p--colorBlack);
     font-size: 12px;
     display: flex;
@@ -108,7 +108,23 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .head__right a{
-    color: var(--p--mainColor);
+    color: #000;
+    font-size: 20px;
+    position: relative;
+}
+
+.head__right a span {
+    position: absolute;
+    right: -8px;
+    top: -2px;
+    font-size: 12px;
+    color: #fff;
+    background-color: red;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 50%;
 }
 
 .menu__icon {
@@ -214,7 +230,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 10px;
     max-width: 1387px;
     width: 95%;
-    height: 100vh;
+    height: 80vh;
     background-color: #fff;
     right: 50%;
     transform: translate(50%);
@@ -222,11 +238,11 @@ h1, h2, h3, h4, h5, h6{
     overflow-y: scroll;
     overflow-x: hidden;
     z-index: 999;
-    display: none;
+    /* display: none; */
 }
 
 .head__main ul li:hover .mega__menu{
-    display: block;
+    /* display: block; */
 }
 
 .mega__list ul {
@@ -248,6 +264,16 @@ h1, h2, h3, h4, h5, h6{
 
 .mega__list ul li a {
     color: #000;
+}
+
+.important__link p {
+    font-size: 18px;
+    padding: 6px 0;
+}
+
+.important__link img {
+    width: 211px;
+    height: 100px;
 }
 
 /* mega menu */

@@ -23,6 +23,9 @@ $(".cross__btn").click(function(){
 
 
 
+// modal
+
+
 
 
 // banner swiper
