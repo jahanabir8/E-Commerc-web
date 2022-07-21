@@ -406,12 +406,7 @@ h1, h2, h3, h4, h5, h6{
     display: block;
   }
   
-  body {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .tabs {
+  .journey__section .tabs {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -420,15 +415,15 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 50px;
   }
 
-  ul.tabs li:first-child{
+  .journey__section ul.tabs li:first-child{
     margin-left: 0;
   }
 
-  ul.tabs li{
+  .journey__section ul.tabs li{
     margin-left: 30px;
   }
   
-  .tab {
+  .journey__section .tab {
     cursor: pointer;
     padding: 10px;
     font-size: 15px;
@@ -436,12 +431,12 @@ h1, h2, h3, h4, h5, h6{
     letter-spacing: 0.98px;
 }
   
-  .tab.active {
+.journey__section .tab.active {
     color: var(--p--pinkColor);
     border: 2px solid var(--p--pinkColor);
   }
 
-  #pricing .gallery__section:first-child{
+  .journey__section #pricing .gallery__section:first-child{
     margin-bottom: 50px;
   }
 /* ---tab--- */
@@ -1269,8 +1264,7 @@ ul.footer__links li a:hover, .footer__social a:hover{
 }
 
 .product__order .order__title2 p {
-    font-size: 19px;
-    font-weight: bold;
+    font-size: 20px;
     margin: 20px 0 10px;
 }
 
