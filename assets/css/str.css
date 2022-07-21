@@ -196,4 +196,42 @@ div#news .owner__cmnt span {
 
 /* related product */
 
+
+#img-zoomer-box {
+    width: 500px;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  #img-1 {
+    width: 100%;
+    height: auto;
+  }
+  
+  #img-zoomer-box:hover, #img-zoomer-box:active {
+    cursor: zoom-in;
+    display: block;
+  }
+  
+  #img-zoomer-box:hover #img-2, #img-zoomer-box:active #img-2 {
+    opacity: 1;
+  }
+  #img-2 {
+    width: 340px;
+    height: 340px;
+    background: url('../image/section__img/product__dets1.jpg') no-repeat #FFF;
+    box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    border: 4px solid whitesmoke;
+    z-index: 99;
+    border-radius: 100%;
+    display: block;
+    transition: opacity .2s;
+  }
+
+
+
 /* =====product page css end here===== */
