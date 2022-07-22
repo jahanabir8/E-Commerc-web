@@ -20,19 +20,386 @@
     <link rel="stylesheet" href="assets/css/str.css">
 </head>
 <body>
+
+
+    <!-- ADD TO CART POPUP MODAL -->
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">  Product successfully added to your shopping cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+           <div class="row">
+                <div class="col-md-7">
+                    <div class="shoping__cart">
+                        <p>Shoping Cart</p>
+                        <div class="order__content">
+                            <img src="assets/image/section__img/product__dets1.jpg" alt="image">
+                            <div class="p__price">
+                                <p>Simple Kind To Skin Refreshing Facial Wa</p>
+                                <span>BDT 190 * 3</span>
+                            </div>
+                            <div class="quantity">
+                                <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                <input name="quantity" type="text" class="quantity__input" value="1">
+                                <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                            </div>
+                            <div class="bd__price">
+                                <p>BDT</p>
+                                <p>560TK</p>
+                            </div>
+                            <a href="#"><i class="fas fa-trash-alt"></i></a>
+                        </div>
+                        <div class="order__content">
+                            <img src="assets/image/section__img/product__dets1.jpg" alt="image">
+                            <div class="p__price">
+                                <p>Simple Kind To Skin Refreshing Facial Wa</p>
+                                <span>BDT 190 * 3</span>
+                            </div>
+                            <div class="quantity">
+                                <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                <input name="quantity" type="text" class="quantity__input" value="1">
+                                <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                            </div>
+                            <div class="bd__price">
+                                <p>BDT</p>
+                                <p>560TK</p>
+                            </div>
+                            <a href="#"><i class="fas fa-trash-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="item__check">
+                        <div class="item__check__child">
+                            <div class="item__price">
+                                <p>2 Items</p>
+                                <span>BDT 2358</span>
+                            </div>
+                        </div>
+                        <div class="item__check__child">
+                            <div class="item__price">
+                                <p> Total (tax excl.)</p>
+                                <span>BDT 2358</span>
+                            </div>
+                            <div class="item__btn">
+                                <button>CONTINUE SHOPING</button>
+                                <button>GO TO CHECKOUT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
     
 
     <!-- header section start -->
-    <div class="header__section">
-        <div class="container">
+    <header class="header__section">
+        <div class="header__section__body">
             <div class="header__inner">
                 <div class="head__left">
                     <a href="index.html"><img src="assets/image/logo/Screenshot_1-removebg-preview.png" alt="image"></a>
                 </div>
                 <div class="head__main">
                     <ul>
-                        <li><a href="#">MAKEUP <i class="far fa-angle-down"></i></a></li>
-                        <li><a href="#">SKINCARE <i class="far fa-angle-down"></i></a></li>
+                        <li class="mega-menu-item" data-key="100"> <!-- data key value(100) protita mega menur jonne alada alada hobe -->
+
+                            <a href="#">MAKEUP <i class="far fa-angle-down"></i></a>
+
+                            <!-- MEGA MENU -->
+                            <div class="mega__menu mega__menu100 d-none"> <!--mega__menu100 ei last er 100 value ta hobe uporer data key er value -->
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <!-- <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="important__link">
+                                            <p>Important Links</p>
+                                            <div class="d-flex">
+                                                <a href="#"><img src="assets/image/section__img/important1.jpg" alt="image"></a>
+                                                <a href="#"><img src="assets/image/section__img/important2.jpg" alt="image"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /MEGA MENU -->
+                        </li>
+                        <li class="mega-menu-item" data-key="101"> <!-- data key value(101) protita mega menur jonne alada alada hobe -->
+
+                            <a href="#">SKINCARE <i class="far fa-angle-down"></i></a>
+
+                            <!-- MEGA MENU -->
+                            <div class="mega__menu mega__menu101 d-none"> <!--mega__menu101 ei last er 101 value ta hobe uporer data key er value -->
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mb-5">
+                                                <div class="mega__list">
+                                                    <span>Face</span>
+                                                    <ul>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                        <li><a href="#">FacePrimar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="important__link">
+                                            <a href="#"><img src="assets/image/section__img/important1.jpg" alt="image"></a>
+                                            <a href="#"><img src="assets/image/section__img/important2.jpg" alt="image"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /MEGA MENU -->
+                        </li>
                         <li><a href="#">HAIR <i class="far fa-angle-down"></i></a></li>
                         <li><a href="#">MAN <i class="far fa-angle-down"></i></a></li>
                         <li><a href="#">BABY <i class="far fa-angle-down"></i></a></li>
@@ -44,17 +411,30 @@
                     </ul>
                 </div>
                 <div class="head__right">
-                    <i class="fas fa-search"></i>
-                    <i class="fas fa-user"></i>
-                    <i class="fas fa-heart"></i>
-                    <i class="fas fa-shopping-bag"></i>
+                    <a href="#" id="search_btn"><i class="fal fa-search"></i></a>
+                    <a href="#"><i class="fal fa-user"></i> </a>
+                    <a href="#"><i class="fal fa-heart"></i> <span>0</span> </a>
+                    <a href="#"><i class="fal fa-shopping-bag"></i> <span>1</span> </a>
                 </div>
+
+                <div class="search-box" id="search_box" style="display: none">
+                    <div class="search-icon">
+                        <button type="submit">
+                            <i class="fal fa-search"></i>
+                        </button>
+                    </div>
+                    <input type="text" placeholder="Enter Search">
+                    <div class="close-icon" id="close_btn">
+                        <i class="fal fa-times"></i>
+                    </div>
+                </div>
+
                 <div class="menu__icon">
                     <i class="fas fa-bars"></i>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <!-- header section start -->
 
     <!-- mobile menu -->
@@ -417,10 +797,716 @@
     <!-- product details section end herer -->
 
     <!-- view -->
-    <!-- <div class="view__title">
+    <div class="view__title">
         <h2>People Also Viewed...</h2>
-    </div> -->
+    </div>
     <!-- view -->
+
+    <!-- related product slide start here -->
+    <div class="related__product__slide">
+        <h2>Related Product</h2>
+        <div class="container">
+            <div class="slide__inner">
+                <div class="swiper related__swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="product__box">
+                                <div class="product__image">
+                                    <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                    <div class="show__once">
+                                        <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                        <a href="#">QUICK SHOP</a>
+                                    </div>
+
+                                    <p>Best Seller</p>
+                                    
+                                </div>
+                                <div class="product__det">
+                                    <div class="review">
+                                        <i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                    </div>
+                                    <p class="parent">POWER KNIGHT</p>
+                                    <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                    <P class="child">
+                                        <span>330$</span> 230$</P>
+                                </div>
+
+                                <div class="product__cart">
+                                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button> -->
+
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button>
+
+                                </div>
+
+                                <div class="best__seller">
+                                    <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                    <img src="assets/image/bg/best__Seller2.png" alt="image">
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="product__box">
+                                <div class="product__image">
+                                    <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                    <div class="show__once">
+                                        <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                        <a href="#">QUICK SHOP</a>
+                                    </div>
+
+                                    <p>Best Seller</p>
+                                    
+                                </div>
+                                <div class="product__det">
+                                    <div class="review">
+                                        <i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                    </div>
+                                    <p class="parent">POWER KNIGHT</p>
+                                    <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                    <P class="child">
+                                        <span>330$</span> 230$</P>
+                                </div>
+
+                                <div class="product__cart">
+                                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button> -->
+
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button>
+
+                                </div>
+
+                                <div class="best__seller">
+                                    <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                    <img src="assets/image/bg/best__Seller2.png" alt="image">
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="product__box">
+                                <div class="product__image">
+                                    <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                    <div class="show__once">
+                                        <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                        <a href="#">QUICK SHOP</a>
+                                    </div>
+
+                                    <p>Best Seller</p>
+                                    
+                                </div>
+                                <div class="product__det">
+                                    <div class="review">
+                                        <i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                    </div>
+                                    <p class="parent">POWER KNIGHT</p>
+                                    <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                    <P class="child">
+                                        <span>330$</span> 230$</P>
+                                </div>
+
+                                <div class="product__cart">
+                                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button> -->
+
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button>
+
+                                </div>
+
+                                <div class="best__seller">
+                                    <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                    <img src="assets/image/bg/best__Seller2.png" alt="image">
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- related product slide end here -->
+
+    <!-- also viewd product sectino star here -->
+    <div class="related__product__slide">
+        <h2>People Also Viewed ...</h2>
+        <div class="container">
+            <div class="slide__inner">
+                <div class="swiper related__swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="product__box">
+                            <div class="product__image">
+                                <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                <div class="show__once">
+                                    <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                    <a href="#">QUICK SHOP</a>
+                                </div>
+
+                                <p>Best Seller</p>
+                                
+                            </div>
+                            <div class="product__det">
+                                <div class="review">
+                                    <i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                    </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                </div>
+                                <p class="parent">POWER KNIGHT</p>
+                                <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                <P class="child">
+                                    <span>330$</span> 230$</P>
+                            </div>
+
+                            <div class="product__cart">
+                                <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button> -->
+
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                    <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                </button>
+
+                            </div>
+
+                            <div class="best__seller">
+                                <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                <img src="assets/image/bg/best__Seller2.png" alt="image">
+                            </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="product__box">
+                                <div class="product__image">
+                                    <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                    <div class="show__once">
+                                        <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                        <a href="#">QUICK SHOP</a>
+                                    </div>
+
+                                    <p>Best Seller</p>
+                                    
+                                </div>
+                                <div class="product__det">
+                                    <div class="review">
+                                        <i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                    </div>
+                                    <p class="parent">POWER KNIGHT</p>
+                                    <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                    <P class="child">
+                                        <span>330$</span> 230$</P>
+                                </div>
+
+                                <div class="product__cart">
+                                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button> -->
+
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button>
+
+                                </div>
+
+                                <div class="best__seller">
+                                    <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                    <img src="assets/image/bg/best__Seller2.png" alt="image">
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="product__box">
+                                <div class="product__image">
+                                    <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                    <div class="show__once">
+                                        <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                        <a href="#">QUICK SHOP</a>
+                                    </div>
+
+                                    <p>Best Seller</p>
+                                    
+                                </div>
+                                <div class="product__det">
+                                    <div class="review">
+                                        <i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                    </div>
+                                    <p class="parent">POWER KNIGHT</p>
+                                    <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                    <P class="child">
+                                        <span>330$</span> 230$</P>
+                                </div>
+
+                                <div class="product__cart">
+                                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button> -->
+
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button>
+
+                                </div>
+
+                                <div class="best__seller">
+                                    <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                    <img src="assets/image/bg/best__Seller2.png" alt="image">
+                                </div>
+                            </div>
+                      </div>
+                      <div class="swiper-slide">
+                            <div class="product__box">
+                                <div class="product__image">
+                                    <a href="#"><img src="assets/image/bg/product1.jpg" alt="image"></a>
+
+                                    <div class="show__once">
+                                        <span>This Refreshing Facewash is 100% soap free. This Vegan Facewash remove dirt, oil and impurities..</span>
+                                        <a href="#">QUICK SHOP</a>
+                                    </div>
+
+                                    <p>Best Seller</p>
+                                    
+                                </div>
+                                <div class="product__det">
+                                    <div class="review">
+                                        <i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i><i class="fas fa-star">
+                                        </i><i class="fas fa-star"></i> <a class="view" href="#">(1 reviews)</a>
+                                    </div>
+                                    <p class="parent">POWER KNIGHT</p>
+                                    <a href="#">Power Kinght pro fiver Very Damaged...</a>
+                                    <P class="child">
+                                        <span>330$</span> 230$</P>
+                                </div>
+
+                                <div class="product__cart">
+                                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button> -->
+
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
+                                        <i class="fas fa-shopping-bag"></i> ADD TO CART
+                                    </button>
+
+                                </div>
+
+                                <div class="best__seller">
+                                    <img src="assets/image/bg/best__Seller1.png" alt="image">
+                                    <img src="assets/image/bg/best__Seller2.png" alt="image">
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- also viewd product sectino star here -->
 
 
 

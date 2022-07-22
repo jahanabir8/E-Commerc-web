@@ -232,6 +232,125 @@ div#news .owner__cmnt span {
     transition: opacity .2s;
   }
 
+  .view__title {
+    text-align: center;
+    padding: 50px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin-top: 35px;
+}
+
+.related__product__slide h2{
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+.view__title h2, .related__product__slide h2 {
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.related__swiper .swiper-button-next:after,
+ .related__swiper .swiper-button-prev:after {
+    font-size: 22px;
+}
+
+.related__swiper .swiper-button-next,
+ .related__swiper .swiper-button-prev {
+    height: 53px;
+    width: 53px;
+    background-color: #aaa;
+    border-radius: 50%;
+    color: #fff;
+}
 
 
 /* =====product page css end here===== */
+
+/* ======menu product page start here===== */
+h2.menu__product__title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 300;
+    margin: 40px 30px;
+}
+
+
+input.search__bar {
+    padding: 6px;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 2px;
+    border: 1px solid lightgray;
+    outline: none;
+    color: #aaa;
+    margin: 10px 0;
+}
+
+.sidebar__content{
+    border-right: 2px solid #aaa;
+    padding: 10px;
+}
+
+.sidebar__content form .form__label {
+    height: 293px;
+    overflow-y: auto;
+}  
+
+.sidebar__content form label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.sidebar__content form label a {
+    color: #333;
+}
+
+.sidebar__content form.form__lChild p {
+    padding: 14px 0;
+    border-bottom: 1px solid #aaa;
+    margin: 15px 0 10px;
+}
+
+.item__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.item__title form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__title form p {
+    margin-right: 14px;
+}
+
+.item__title > p {
+    font-size: 12px;
+}
+
+.item__title form {
+    font-size: 12px;
+}
+
+.item__title form select {
+    padding: 6px;
+    border: 1px solid #aaa;
+    outline: none;
+}
+
+
+/* ======menu product page end here===== */
+
+
+/* =====wish page start here===== */
+.wish__title {
+    margin-top: 45px;
+    text-align: center;
+}
+/* =====wish page end here===== */

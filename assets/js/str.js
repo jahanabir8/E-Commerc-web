@@ -30,4 +30,45 @@ let zoomer = function (){
   
     }, false);
   }();
+
   
+  // ========related product slider
+  var swiper = new Swiper(".related__swiper", {
+    slidesPerView: 4,
+    spaceBetween: 20,
+    slidesPerGroup: 1,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+  
+    },
+    autoplay: 
+    {
+      delay: 9000,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  
+    breakpoints: {
+      
+      1024: {
+        slidesPerView: 4
+      },
+      768: {
+        slidesPerView: 3
+      },
+      575: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+      
+  
+    }
+  
+  
+  });
