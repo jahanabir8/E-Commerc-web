@@ -561,3 +561,86 @@ input.search__bar {
 /* ================================
     loyal page start here
 ===================================*/
+
+
+/* ================================
+    order page start here
+===================================*/
+.order__section {
+    margin: 46px 0;
+}
+
+.order__inner h4 {
+    padding: 20px 0;
+    font-size: 21px;
+}
+
+.order__inner h4 a {color: #7aa93c;}
+
+.order__inner h4 a:hover {
+    text-decoration: underline;
+}
+/* ================================
+    order page end here
+===================================*/
+
+
+/* ================================
+    return page start here
+===================================*/
+.return__section {
+    margin: 90px 0;
+}
+
+.return__inner .return__title {
+    margin: 20px 0;
+}
+
+.return__inner .return__title h4 {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.return__title p {
+    font-size: 17px;
+}
+
+.return__inner .return__title span {
+    font-size: 12px;
+    text-decoration: underline;
+    margin-top: 15px;
+    display: block;
+}
+
+.return__inner ul, .policy ul {
+    margin-left: 20px;
+}
+
+.return__inner ul li, .policy ul li {
+    list-style: circle;
+    margin-bottom: 6px;
+}
+
+.lifestyle__title h3 {
+    font-size: 31px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.lifestyle_p_inner .policy h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.policy {
+    margin-bottom: 20px;
+}
+
+
+
+/* ================================
+    return page end here
+===================================*/
