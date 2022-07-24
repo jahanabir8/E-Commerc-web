@@ -508,7 +508,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .product__image a:hover{
-    background-color: var(--p--colorBlack);
+    /* background-color: var(--p--colorBlack); */
     color: var(--p--colorWhite);
 }
 
@@ -1348,3 +1348,7 @@ a.quantity__plus span {
 /* ==================================
        product page end here
 ================================== */
+
+
+
+
