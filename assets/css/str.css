@@ -313,6 +313,48 @@ input.search__bar {
     margin: 15px 0 10px;
 }
 
+.sidebar__content .filer__category{
+    margin-bottom: 20px;
+}
+
+.sidebar__content .filer__category h4 {
+    font-size: 16px;
+    padding-bottom: 20px;
+    position: relative;
+    border-bottom: 1px solid #9899;
+}
+
+.sidebar__content .filer__category h4:before {
+    position: absolute;
+    content: "";
+    background-color: #ec138d;
+    height: 4px;
+    width: 35px;
+    bottom: 0;
+    left: 0;
+}
+
+.product__primer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+.product__primer p {
+    font-size: 15px;
+    color: #ec138d;
+}
+
+.product__primer a {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 18px;
+    background-color: #ec138d;
+    color: #fff;
+    border-radius: 20px;
+}
+
 .item__title {
     display: flex;
     justify-content: space-between;
