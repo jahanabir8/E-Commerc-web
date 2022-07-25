@@ -52,18 +52,18 @@ margin-right: 20px;
 }
   
 /* product tab */
-
+/* ======================================================= */
 .tab-content h3 {
     font-size: 23px;
     margin: 40px 0 25px;
     color: #333;
 }
 
-.tab-content p, .tab-content ul li {
+.tab-content p, .product__tab .tab-content ul li {
     font-size: 15px;
     color: #555;
 }
-
+/* =========================================================== */
 div#pricing .tab__social{
     margin-top: 30px;
 }
@@ -681,8 +681,233 @@ input.search__bar {
     margin-bottom: 20px;
 }
 
-
-
 /* ================================
     return page end here
 ===================================*/
+
+
+/* ===============================
+    shipping delivery start here
+==================================*/
+.shipping__delivery__inner p {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.shipping__delivery__inner p span {
+    font-weight: bold;
+}
+
+.shipping__delivery {
+    margin: 70px 0;
+}
+/* ===============================
+    shipping delivery end here
+==================================*/
+
+/* ===============================
+    privilige page start here
+==================================*/
+.head__image img {
+    width: 100%;
+}
+
+/* privilige tab */
+.active[data-tab-content] {
+    display: block;
+  }
+  
+  .privilige__tab .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding: 0;
+  }
+  
+  .privilige__tab .tab {
+    margin:0 10px 10px 0;
+  }
+  
+  .privilige__tab .tab.active a {
+    background-color: #ffc82c;
+  }
+  
+  .privilige__tab .tab:hover a {
+    background-color: #ffc82c;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .privilige__tab .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+/* privilige tab */
+
+.privilige__tab {
+    margin: 50px 0;
+}
+
+.privilize__box a {
+    padding: 15px 42px;
+    height: 185px;
+    width: 168px;
+    display: block;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+}
+
+.privilize__box a img {
+    width: 50px;
+    margin: auto;
+    display: block;
+    margin-top: 42%;
+}
+
+.privilize__box a span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #222;
+}
+
+.pri__port__box {
+    max-width: 304px;
+    height: 290px;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%),
+     0 5px 8px 0 rgb(0 0 0 / 14%),
+      0 1px 14px 0 rgb(0 0 0 / 12%);
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.pri__port__box:hover{
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%);
+}
+
+
+.privilige__content__box {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.privilige__content__box .pri__port__box {
+    margin: 0 10px 10px 0;
+}
+
+
+.pri__port__box a img {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+}
+
+.pri__port__box a .desc {
+    text-align: center;
+}
+
+a.privilige__portfolio .desc h3 {
+    margin: 15px 0 3px;
+    font-size: 19px;
+}
+
+.pri__port__box a .desc strong {
+    font-size: 10px;
+    color: #7aa93c;
+}
+
+.pri__port__box a .desc p {
+    font-size: 12px;
+    color: #d92727ed;
+    font-weight: bold;
+}
+
+.privilige__vip img {
+    width: 100%;
+}
+
+.privilige__off {
+    margin: 50px 0;
+}
+
+/* ===============================
+    privilige page end here
+==================================*/
+
+
+
+/* ===============================
+    vip page start here
+==================================*/
+.vip__ban{
+    margin: 50px 0;
+}
+
+.vip__ban img {
+    width: 100%;
+}
+
+.vip__inner .common__title img {
+    width: 50%;
+    margin: auto;
+}
+
+.vip__rules h3 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vip__rules ul {
+    margin-left: 15px;
+}
+
+.vip__rules ul li {
+    list-style: circle;
+    margin-bottom: 8px;
+}
+
+.vip__inner .reward {
+    text-align: center;
+}
+
+.vip__inner .reward .common__title {
+    margin-top: 40px;
+}
+
+.vip__inner .reward .common__title p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.vip__inner .reward .common__title img {
+    width: 50px;
+}
+
+.vip__inner .reward img {
+    width: 104px;
+}
+
+.vip__inner .reward a {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 16px 34px;
+    font-size: large;
+    background-color: #b41f23;
+    border: 1px solid #b41f23;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+.vip__inner .reward a:hover{
+    color: #b41f23;
+    background-color: transparent;
+}
+
+/* ===============================
+    vip page start here
+==================================*/
