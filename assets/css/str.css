@@ -911,3 +911,142 @@ a.privilige__portfolio .desc h3 {
 /* ===============================
     vip page start here
 ==================================*/
+
+
+/* =================================
+    global page start here
+====================================*/
+.global__section{
+    margin: 80px 0;
+}
+
+.global__inner .common__title h2 {
+    color: #b41f23;
+}
+
+.global__inner .common__title p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.global__content p {
+    font-size: large;
+    line-height: 34px;
+    color: #666;
+    margin: 24px 0;
+}
+
+.global__content span {
+    font-weight: bold;
+    display: block;
+    font-size: 23px;
+    margin-top: 10px;
+    color: #b41f23;
+}
+
+.global__content ul{
+    margin-left: 10px;
+}
+
+.global__content ul li{
+    font-size: large;
+    line-height: 34px;
+    color: #666;
+}
+
+.global__product .round__box {
+    width: 275px;
+    height: 275px;
+    text-align: center;
+    margin: auto;
+    background-color: #ffdf72;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #000;
+}
+
+.global__product .round__box:hover center{
+    text-decoration: underline;
+}
+
+.global__product .round__box img {
+    width: 90px;
+}
+
+.global__product .round__box p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.global__product .round__box p,
+ .global__product .round__box span{
+    color: #b41f23;
+ }
+
+.global__product .round__box span {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.glb__img img {
+    width: 100%;
+}
+
+.global__order__inner .common__title h2 {
+    margin-top: 30px;
+}
+
+.int__order__cart .int__order__box img {
+    width: 100px;
+}
+
+.int__order__cart .int__order__box {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b41f23;
+}
+
+.int__order__cart .desc {
+    padding: 20px;
+}
+
+.int__order__cart .desc p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.int__order__cart .desc a {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #777;
+}
+
+.int__order__cart .desc {
+    background-color: #fff;
+}
+
+.int__order__cart {
+    box-shadow: 0px 0px 2px 2px lightgrey;
+}
+
+.global__payment .common__title h2{
+    color: #b41f23;
+}
+
+.global__contact{
+    margin-top: 20px;
+}
+
+.global__contact p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* =================================
+    global page end here
+====================================*/
