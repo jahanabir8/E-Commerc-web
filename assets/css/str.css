@@ -1050,3 +1050,396 @@ a.privilige__portfolio .desc h3 {
 /* =================================
     global page end here
 ====================================*/
+
+
+/* =================================
+    payment page start here
+====================================*/
+.payment__rules {
+    margin-top: 70px;
+}
+
+.payment__inner p {
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+.payment__inner span {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+}
+
+.payment__inner ul {
+    margin-left: 13px;
+}
+
+.payment__inner ul li {
+    list-style: circle;
+    margin-top: 5px;
+}
+
+/* =================================
+    payment page end here
+====================================*/
+
+
+/* ================================
+    about page start here
+===================================*/
+.about__us {
+    margin: 80px 0;
+}
+
+.about__inner .about__image img{
+    width: 100%;
+}
+
+.about__inner .common__title h2 {
+    font-weight: bold;
+}
+
+.about__us .about__content p{
+    font-size: 14px;
+    color: #666;
+}
+
+/* ================================
+    about page end here
+===================================*/
+
+/* ================================
+    contact page start here
+===================================*/
+.contact__section{
+    margin-top: 70px;
+}
+
+.contact__form form label {
+    margin-bottom: 3px;
+    font-size: 16px;
+}
+
+.contact__form form input, .contact__form form select, .contact__form form textarea {
+    padding: 2px;
+    width: 76%;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.contact__form form select {
+    padding: 8px;
+}
+
+.contact__btn a {
+    font-size: 13px;
+    padding: 10px 35px;
+    background-color: #7aa93c;
+    color: #fff;
+    display: inline-block;
+}
+
+.contact__box .contact__title p {
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact__box .contact__title p span {
+    font-weight: 800;
+}
+
+.contact__box .icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact__box .icon i {
+    font-size: 22px;
+}
+
+.contact__title .contact__info {
+    display: flex;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact__info .contact__number {
+    margin-left: 9px;
+}
+
+.contact__info .contact__number a {
+    color: #000;
+}
+
+@media screen and (max-width: 575px) {
+    .contact__form form input, .contact__form form select, .contact__form form textarea {
+        width: 100%;
+    }
+}
+
+/* ================================
+    condition page start here
+===================================*/
+.condition__section{
+    margin-top: 70px;
+}
+
+.condition__inner .condition__content span {
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.condition__inner .condition__content p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.condition__inner .condition__content ul {
+    margin-left: 12px;
+}
+
+.condition__inner .condition__content ul li {
+    list-style: circle;
+    margin-bottom: 5px;
+}
+/* ===============================
+    condition page end here
+=================================*/
+
+
+/* ==============================
+    mallguide page start here
+================================*/
+.mallguide__section{
+    margin-top: 70px;
+}
+
+.mallguide__inner .common__title h2 {
+    padding-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.mallguide__inner .common__title h2:before {
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 80%;
+    background-color: var(--p--pinkColor);
+    left: 10%;
+    bottom: 0;
+}
+
+.mallguide__inner .common__title {
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.mallguide__inner .common__title p {
+    font-size: 22px;
+    line-height: 37px;
+    margin-bottom: 20px;
+}
+
+.mallguide__inner .guide__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+
+.mallguide__inner .guide__box .guide__box__content {
+    text-align: center;
+    max-width: 550px;
+}
+
+.mallguide__inner .guide__box .guide__box__content h3 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 47px;
+}
+
+.mallguide__inner .guide__box .guide__box__content a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #138496;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.mallguide__inner .guide__box .guide__box__content a:hover{
+    background-color: #17a2b8;
+}
+
+@media screen and (max-width: 767px) {
+    .mallguide__inner .guide__box .guide__box__content h3{
+        font-size: 27px;
+    }
+
+    .mallguide__inner .guide__box .guide__box__content a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .mallguide__inner .common__title{
+        max-width: 100%;
+    }
+
+    .mallguide__inner .common__title p{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+/* ==============================
+    mallguide page end here
+================================*/
+
+/* =============================
+    mallblog page start here
+================================*/
+.blogHeader__section {
+    position: fixed;
+    width: 100%;
+}
+
+.blogHeader__section, .blogbanner__section{
+    background-color: #c7d47b;
+}
+
+.blogHeader__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.blogHeader__left {
+    width: 10%;
+}
+
+.blogHeader__left h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.blogHeader__right {
+    width: 54%;
+}
+
+.blogHeader__right ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogHeader__right ul li a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.blogHeader__middle form {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blogHeader__middle form input {
+    border: none;
+    outline: none;
+}
+
+
+.blogbanner__section {
+    padding-top: 86px;
+}
+
+.blogbanner__inner{
+    height: 550px;
+}
+
+.blogbanner__inner img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    height: 100%;
+}
+
+.blogcontent__inner{
+    max-width: 830px;
+    margin: auto;
+}
+
+.blogcontent__inner .common__title h2 {
+    font-size: 54px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.blogcontent__inner .common__title .image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.blogcontent__inner .common__title .image img {
+    width: 100px;
+}
+
+.blogcontent__inner .common__title .image .img__content p {
+    font-weight: bold;
+}
+
+.blogcontent__inner .common__title .content{
+    margin-top: 20px;
+}
+
+.blogcontent__inner .common__title .content p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.blog__social {
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.blog__social p {
+    font-weight: bold;
+}
+
+.blog__social i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.blog__social {
+    margin-top: 10px;
+}
+/* =============================
+    mallblog page start here
+================================*/
