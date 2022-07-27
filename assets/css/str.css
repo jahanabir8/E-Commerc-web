@@ -1325,6 +1325,7 @@ a.privilige__portfolio .desc h3 {
 
 .blogHeader__section, .blogbanner__section{
     background-color: #c7d47b;
+    z-index: 999;
 }
 
 .blogHeader__inner {
@@ -1347,12 +1348,16 @@ a.privilige__portfolio .desc h3 {
     width: 54%;
 }
 
-.blogHeader__right ul {
+.blogHeader__right > ul {
     display: flex;
     justify-content: space-between;
 }
 
-.blogHeader__right ul li a {
+/* .blogHeader__right ul li{
+    position: relative;
+} */
+
+.blogHeader__right > ul > li > a {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
@@ -1440,6 +1445,147 @@ a.privilige__portfolio .desc h3 {
 .blog__social {
     margin-top: 10px;
 }
+
+
+.related__product__slide.blog__page__slide{
+    padding: 30px 0;
+    background-color: #c7d47b;
+}
+
+.related__product__slide.blog__page__slide .product__box{
+    background-color: #fff;
+}
+
+.related__product__slide.blog__page__slide .common__title h2 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.blog__form {
+    padding: 60px;
+    text-align: center;
+    background-color: #99d4c1;
+    margin-top: 60px;
+}
+
+.blog__form .common__title h2{
+    color: #fff;
+}
+
+.blog__form form input {
+    width: 30%;
+    padding: 10px;
+    height: 60px;
+    outline: none;
+    border: none;
+}
+
+.blog__form form a {
+    background-color: #b21f25;
+    display: inline-block;
+    text-align: center;
+    padding: 18px 75px;
+    color: #fff;
+}
+
+.blog__deck {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.blog__deck ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__deck ul li {
+    margin-right: 25px;
+}
+
+.blog__deck ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.blog__deck p {
+    font-size: 18px;
+}
+
+.blog__mega {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    padding: 20px;
+    transition: .3s;
+    left: 0;
+}
+
+.blogHeader__right li:hover .blog__mega {
+    opacity: 1;
+    visibility: visible;
+    transition: .3s;
+}
+
+.blog__mega__list ul li {
+    margin-bottom: 10px;
+}
+
+.blog__mega__list ul li a {
+    font-size: 19px;
+    color: #000;
+    font-weight: bold;
+}
+
+.blog__mega__img a p {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    .blog__deck{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .blog__deck ul{
+        margin-bottom: 10px;
+        
+        display: block;
+        text-align: center;
+    }
+
+    .blog__deck ul li{
+        margin-bottom: 7px;
+    }
+
+    .blog__deck ul li a{
+        font-size: 14px;
+    }
+
+    .blog__deck p{
+        text-align: center;
+    }
+
+
+}
 /* =============================
     mallblog page start here
 ================================*/
+
+/* .blogHeader__right {
+    position: relative;
+} */
