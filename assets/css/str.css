@@ -1318,6 +1318,10 @@ a.privilige__portfolio .desc h3 {
 /* =============================
     mallblog page start here
 ================================*/
+.blogHeader__left img {
+    width: 160px;
+}
+
 .blogHeader__section {
     position: fixed;
     width: 100%;
@@ -1332,25 +1336,33 @@ a.privilige__portfolio .desc h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
-.blogHeader__left {
+/* .blogHeader__left {
     width: 10%;
-}
+} */
 
-.blogHeader__left h3 {
+/* .blogHeader__left h3 {
     font-weight: bold;
     color: #fff;
-}
+} */
 
-.blogHeader__right {
+/* .blogHeader__right {
     width: 54%;
-}
+} */
 
 .blogHeader__right > ul {
     display: flex;
     justify-content: space-between;
+}
+
+.blogHeader__right > ul > li {
+    margin-right: 15px;
+}
+
+.blogHeader__right > ul > li:last-child {
+    margin-right: 0;
 }
 
 /* .blogHeader__right ul li{
@@ -1358,7 +1370,7 @@ a.privilige__portfolio .desc h3 {
 } */
 
 .blogHeader__right > ul > li > a {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
 }
@@ -1473,7 +1485,7 @@ a.privilige__portfolio .desc h3 {
 }
 
 .blog__form form input {
-    width: 30%;
+    width: 60%;
     padding: 10px;
     height: 60px;
     outline: none;
@@ -1544,6 +1556,10 @@ a.privilige__portfolio .desc h3 {
     font-weight: bold;
 }
 
+.blog__mega__img a img {
+    width: 100%;
+}
+
 .blog__mega__img a p {
     color: #000;
     font-size: 18px;
@@ -1553,11 +1569,141 @@ a.privilige__portfolio .desc h3 {
     text-align: center;
 }
 
+.blogHeader__menu{
+    display: none;
+}
+
+.blogHeader__menu i{
+    color: #fff;
+    cursor: pointer;
+}
+
+.blog__mobile__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    z-index: 9999;
+    background-color: #fff;
+    width: 40%;
+    height: 100%;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.3s ease-in-out;
+}
+
+.blog__open{
+    transform: scaleX(1);
+}
+
+.blog__mobile__menu ul li {
+    padding: 15px 0;
+    border-bottom: 1px solid red;
+}
+
+.blog__cross__bar {
+    text-align: end;
+}
+
+.blog__cross__bar i{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.blog__mobile__menu ul li a {
+    font-size: 20px;
+    color: red;
+}
+
+@media screen and (max-width: 1199px) {
+    .blogHeader__right > ul > li > a{
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .blog__deck{
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .blogHeader__right{
+        display: none;
+    }
+
+    .blogHeader__menu{
+        display: block;
+    }
+
+    .blogHeader__middle{
+        width: 60%;
+    }
+
+    .blogHeader__middle form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .blog__form form a {
+        padding: 18px 30px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .blogbanner__inner {
+        height: auto;
+    }
+
+    .blogcontent__inner .common__title h2,
+     .related__product__slide.blog__page__slide .common__title h2 {
+        font-size: 36px;
+    }
+
+    .blogcontent__inner .common__title .image{
+        max-width: unset;
+        margin: unset;
+    }
+
+    .blogcontent__inner .common__title .content p{
+        font-size: 12px;
+    }
+
+    .blogHeader__left img {
+        width: 130px;
+    }
+
+    .blogHeader__middle {
+        width: 42%;
+    }
+
+    .common__title h2 {
+        font-size: 22px;
+    }
+
+    .blogbanner__inner img {
+        width: 100%;
+        margin: unset;
+        height: auto;
+    }
+
+    .blogHeader__middle form input {
+        width: 100%;
+    }
+
+    .blog__form form input {
+        width: 100%;
+        margin-bottom: 10px;
+        height: 46px;
+    }
+
+    .blog__form form a {
+        display: block;
+        padding: 10px 30px;
+    }
+    
 }
 
 @media screen and (max-width: 424px) {
@@ -1578,6 +1724,10 @@ a.privilige__portfolio .desc h3 {
 
     .blog__deck p{
         text-align: center;
+    }
+
+    .blog__mobile__menu{
+        width: 70%;
     }
 
 

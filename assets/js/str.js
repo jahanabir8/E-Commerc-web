@@ -32,6 +32,19 @@
 //     }, false);
 //   }();
 
+
+// blog menu
+$(".blogHeader__menu").click(function(){
+  $(".blog__mobile__menu").addClass("blog__open");
+})
+
+
+$(".blog__cross__bar").click(function(){
+  $(".blog__mobile__menu").removeClass("blog__open");
+})
+// blog menu
+
+
   
   // ========related product slider
   var swiper = new Swiper(".related__swiper", {
