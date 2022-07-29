@@ -158,10 +158,10 @@ var swiper = new Swiper(".footer__swiper", {
     clickable: true,
   },
   loop:true,
-  autoplay: 
-    {
-      delay: 2000,
-    },
+  // autoplay: 
+  //   {
+  //     delay: 2000,
+  //   },
     breakpoints: {
       1024: {
         slidesPerView: 7
