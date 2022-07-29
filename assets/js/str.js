@@ -86,3 +86,32 @@ $(".blog__cross__bar").click(function(){
   
   
   });
+
+  // new blog ban swiper
+  var swiper = new Swiper(".blog__Swiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+
+    breakpoints: {
+      
+      1024: {
+        slidesPerView: 3
+      },
+      768: {
+        slidesPerView: 3
+      },
+      575: {
+        slidesPerView: 2
+      },
+      320: {
+        slidesPerView: 1
+      }
+      
+  
+    }
+  });

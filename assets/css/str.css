@@ -1615,6 +1615,12 @@ a.privilige__portfolio .desc h3 {
     color: red;
 }
 
+
+
+.blog__form{
+    display: none;
+}
+
 @media screen and (max-width: 1199px) {
     .blogHeader__right > ul > li > a{
         font-size: 16px;
@@ -1733,9 +1739,110 @@ a.privilige__portfolio .desc h3 {
 
 }
 /* =============================
-    mallblog page start here
+    mallblog page end here
 ================================*/
 
-/* .blogHeader__right {
-    position: relative;
-} */
+
+/* ===============================
+    mallblognew page start here
+==================================*/
+.blognewheader__section{
+    background-color: #b21f25;
+}
+
+.mallblog__banner{
+    padding-top: 86px;
+}
+
+.newblog__img a:last-child,
+ .trending__items .trending__box a:last-child {
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.trending__items .trending__box a:last-child{
+    font-size: 16px;
+}
+
+.newblog__img a:last-child:hover
+ /* .trending__items .trending__box a:last-child:hover */
+ {
+    font-size: 15px;
+    color: #1877F2;
+}
+
+.mallblog__banner {
+    padding: 125px 0 25px;
+    background-color: #b21f25;
+}
+
+.blog__trending{
+    padding: 50px 0;
+    background-color: #99d4c1;
+}
+
+.blog__trending__inner .common__title h2 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.trending__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending__items .trending__box {
+    max-width: 285px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.trending__items .trending__box img {
+    width: 100%;
+}
+
+.blog__skincare {
+    padding: 50px 0;
+}
+
+.blog__skincare__inner img {
+    width: 100%;
+}
+
+.blog__skincare__inner a.skincare__text, .blogmakeup__box a:last-child {
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    color: #000;
+    font-weight: bold;
+    margin: 10px 0 20px;
+}
+
+.blogmakeup__box img {
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .blog__skincare__inner a.skincare__text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .trending__items {
+        justify-content: space-evenly;
+    }
+}
+
+
+
+/* ================================
+    mallblognew page end here
+====================================*/
