@@ -399,6 +399,84 @@ input.search__bar {
     margin-top: 45px;
     text-align: center;
 }
+
+.wish__img img {
+    width: 100%;
+    border: 1px solid #f9f9f9;
+}
+
+.wish__box .wish__desc {
+    margin: 10px 0 20px;
+}
+
+.wish__box .wish__desc a {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 35px;
+    display: block;
+}
+
+.wish__box .wish__desc a:hover {
+    text-decoration: underline;
+}
+
+.wish__box .wish__desc p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+
+.wish__btn {
+    text-align: center;
+}
+
+.wish__box .wish__btn a {
+    font-size: 12px;
+    padding: 15px;
+    display: inline-block;
+    color: #fff;
+}
+
+.wish__box .wish__btn a i {
+    margin-right: 4px;
+}
+
+.wish__box .wish__btn a:first-child {
+    color: #fff;
+    background-color: #000;
+}
+
+.wish__box .wish__btn a:last-child {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.wish__box .wish__btn a:hover a:first-child{
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    height: 30px;
+    width: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: #222;
+}
+
+.swiper-button-prev:after {
+    content: 'prev';
+    font-size: 24px;
+}
+
+.swiper-button-next:after{
+    content: 'next';
+    font-size: 24px;
+}
+
+
+
 /* =====wish page end here===== */
 
 

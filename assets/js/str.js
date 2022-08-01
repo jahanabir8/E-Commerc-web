@@ -115,3 +115,37 @@ $(".blog__cross__bar").click(function(){
   
     }
   });
+
+// wishlist swiper
+var swiper = new Swiper(".wishlist__Swiper", {
+  slidesPerView: 5,
+  spaceBetween: 15,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+
+  breakpoints: {
+    1399:{
+      slidesPerGroup: 4
+    },
+      
+    1024: {
+      slidesPerView: 4
+    },
+    768: {
+      slidesPerView: 3
+    },
+    575: {
+      slidesPerView: 2
+    },
+    320: {
+      slidesPerView: 1
+    }
+    
+
+  }
+
+
+});
