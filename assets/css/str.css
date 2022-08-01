@@ -27,7 +27,7 @@ ul.final__drop{
     display: block;
 }
 
-ul.drop__menu li:hover ul.final__drop{
+ul.drop__menu > li:hover ul.final__drop{
     display: block;
 }
 
