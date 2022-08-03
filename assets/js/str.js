@@ -149,3 +149,13 @@ var swiper = new Swiper(".wishlist__Swiper", {
 
 
 });
+
+
+$(".accordion-body").click(function(){
+  $(".country__form").addClass("open__form");
+})
+
+
+$(".accordion__cross").click(function(){
+  $(".country__form").removeClass("open__form");
+})

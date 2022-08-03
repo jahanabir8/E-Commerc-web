@@ -2096,6 +2096,14 @@ button.accordion-button p {
     transition: 0.3s ease-in-out;
 }
 
+.country__form{
+    display: none;
+}
+
+.open__form{
+    display: block;
+}
+
 .accordion__form form {
     padding: 25px 17px;
     background-color: #80808017;
@@ -2320,24 +2328,73 @@ button.accordion-button p {
     width: 93%;
 }
 
-.coupon__code form {
+.coupon__code > form {
     text-align: center;
 }
 
-.coupon__code form input {
+.coupon__code > form input {
     outline: none;
     border: 1px solid lightgray;
     font-size: 13px;
     padding: 4px 16px;
 }
 
-.coupon__code form a {
+.coupon__code > form a {
     font-size: 12px;
     font-weight: bold;
     color: #fff;
     background-color: #7aa93c;
     padding: 6px 15px;
     display: inline-block;
+}
+
+.coupon__code .comment p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.coupon__code .comment {
+    margin-top: 30px;
+}
+
+.coupon__code .comment form textarea {
+    width: 100%;
+    border: 1px solid #7aa93c;
+    outline: none;
+    padding: 4px;
+}
+
+.coupon__code .comment form  span {
+    color: green;
+}
+
+.coupon__code .comment .place__order{
+    margin-top: 50px;
+}
+
+.coupon__code .comment .place__order__btn {
+    text-align: end;
+    margin: 40px 0;
+}
+
+.coupon__code .comment .place__order a {
+    display: inline-block;
+    width: 300px;
+    background-color: #7aa93c;
+    text-align: center;
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.coupon__code .comment .place__order a i {
+    margin-right: 12px;
+}
+
+.place__order .conditions ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
 }
 
 @media screen and (max-width: 767px) {
