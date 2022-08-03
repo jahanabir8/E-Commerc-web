@@ -2023,6 +2023,344 @@ a.privilige__portfolio .desc h3 {
 
 
 
-/* ================================
+/* ==================================
     mallblognew page end here
 ====================================*/
+
+
+/* =================================
+    check out page start here
+====================================*/
+.checkout__section {
+    margin-top: 40px;
+}
+
+.check__left .check__title h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.check__left .check__title p {
+    font-size: 14px;
+    margin: 15px 0 20px;
+}
+
+.check__left .delevery__address > p {
+    margin-bottom: 18px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: unset;
+    color: unset;
+    padding: 10px;
+}
+
+.accordion-item:first-of-type .accordion-button{
+    padding: 10px;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed{
+    padding: 10px;
+    border-radius: 0;
+}
+
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+
+button.accordion-button p {
+    font-size: 14px;
+}
+
+.accordion-body {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed lightgray;
+    cursor: pointer;
+}
+
+.accordion-body p {
+    font-size: 12px;
+}
+
+.accordion__form {
+    padding: 7px;
+    background-color: #80808017;
+    /* transform-origin: top; */
+    transform: scale(0);
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.accordion__form form {
+    padding: 25px 17px;
+    background-color: #80808017;
+}
+ 
+.accordion__form form .form__portion input {
+    width: 100%;
+}
+
+.accordion__form form i {
+    display: block;
+    text-align: end;
+    font-weight: bold;
+    color: red;
+}
+
+.accordion__form form label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.accordion__form form i {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.accordion__form form .address__portion,
+ .accordion__form form input {
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.accordion__form form .address__portion#city {
+    padding: 8px 4px;
+}
+
+.accordion__form form .address__portion {
+    width: 100%;
+}
+
+.form__button {
+    margin-top: 25px;
+}
+
+.form__button a {
+    padding: 12px 22px;
+    font-size: 14px;
+    background-color: green;
+    color: #fff;
+    display: inline-block;
+}
+
+.billing__address {
+    margin-top: 30px;
+}
+
+.billing__address > p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.billing__address .accordion__form {
+    background-color: #f4edf7;
+    border-radius: 6px;
+}
+
+.billing__address > form {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+.check__right {
+    margin-top: 82px;
+}
+
+.shipping-title p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 17px;
+    border-bottom: 1px solid lightgray;
+}
+
+.shipping__process .process {
+    display: flex;
+    justify-content: start;
+    margin-top: 8px;
+    
+}
+
+.shipping__process .process:last-child{
+    background-color: #d9edf7;
+}
+
+.shipping__process .process img {
+    width: 60px;
+    height: 54px;
+    margin-right: 15px;
+}
+
+.shipping__process .process .desc p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.shipping__process .process .desc span {
+    font-size: 12px;
+}
+
+.payment__process .pay__process {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.payment__process .pay__process img {
+    width: 60px;
+    height: 35px;
+    margin: 0 12px 0;
+}
+
+.payment__process .pay__process p {
+    font-size: 12px;
+}
+
+.order__summary {
+    margin-top: 30px;
+}
+
+.order__summary .summary__title p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.pdct__added {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.pdct__added:first-child{
+    border-top: 1px solid lightgray;
+}
+
+.pdct__added .ordered__left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.pdct__added .ordered__left img {
+    width: 65px;
+}
+
+.pdct__added .ordered__left p {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.pdct__added .ordered__left span {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(154, 90, 88);
+}
+
+.pdct__added .ordered__left .ordered__desc {
+    margin-left: 20px;
+}
+
+.ordered__right {
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ordered__right .quantity span{
+    padding: 5px 10px;
+} 
+
+.ordered__right .quantity span i {
+    font-weight: 200;
+}
+
+.ordered__right .quantity input {
+    width: 35px;
+    padding: 1px 10px;
+    background-color: lightgray;
+}
+
+.ordered__right .remove a {
+    color: #000;
+}
+
+.total__count {
+    margin: 10px 0 40px;
+}
+
+.total__count ul {
+    text-align: end;
+}
+
+.total__count ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.total__count ul li span:first-child {
+    direction: ltr;
+    width: 93%;
+}
+
+.coupon__code form {
+    text-align: center;
+}
+
+.coupon__code form input {
+    outline: none;
+    border: 1px solid lightgray;
+    font-size: 13px;
+    padding: 4px 16px;
+}
+
+.coupon__code form a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #7aa93c;
+    padding: 6px 15px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+    .pdct__added {
+        flex-wrap: wrap;
+        padding: 10px 0;
+    }
+
+    .pdct__added .ordered__left{
+        margin-bottom: 5px;
+    }
+
+    .ordered__right {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .ordered__right{
+        width: 100%;
+    }
+}
+
+/* =================================
+    check out page end here
+===================================*/

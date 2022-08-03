@@ -687,10 +687,362 @@
                                 <p>Complete the following fields to place your order.</p>
                             </div>
                             <div class="delevery__address">
-                                <p><i class="fa-solid fa-truck"></i> Delivery Address</p>
+                                <p> <i class="fas fa-truck"></i> Delivery Address</p>
                                 <div class="chose__address">
-                                    
+                                    <div class="accordion" id="accordionExample">
+                                        <div class="accordion-item">
+                                          <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                              <p>Select Your Delivery Address</p>
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p><i class="fas fa-plus"></i> ADD NEW ADDRESS</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="accordion__form">
+                                            <form>
+                                                <i class="far fa-times"></i>
+
+                                                <div class="row mb-3">
+                                                    <div class="col-lg-6">
+                                                        <div class="form__portion">
+                                                            <label for="fname">First Name</label> <br>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form__portion">
+                                                            <label for="lname">Last Name</label> <br>
+                                                            <input type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mb-3">
+                                                    <div class="col-lg-12">
+                                                        <label for="address">Address</label> <br>
+                                                        <textarea  class="address__portion" type="text" name="" id="" cols="2" rows="2"></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row mb-3">
+                                                    <div class="col-lg-12">
+                                                        <label class="address__portion" for="city">City</label> <br>
+                                                        <select  class="address__portion" id="city">
+                                                            <option value="cmc">Choose one...</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                            <option value="cmc">Dhaka</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <label for="number">Phone Number</label> <br>
+                                                        <input class="address__portion" type="text" placeholder="+880 ">
+                                                    </div>
+                                                </div>
+
+                                                <div class="form__button">
+                                                    <a href="#!">ADDRESS LIST</a>
+                                                    <a href="#!">SUBMIT</a>
+                                                </div>
+                                                
+                                            </form>
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="billing__address">
+                                <p> <i class="far fa-credit-card"></i> Billing Address</p>
+                                <form>
+                                    <input type="checkbox">
+                                    <label for="checkbox">I am from outside of Bangladesh</label>
+                                </form>
+                                <div class="accordion__form">
+                                    <form>
+                                        <div class="row mb-3">
+                                            <div class="col-lg-6">
+                                                <div class="form__portion">
+                                                    <label for="fname">First Name</label> <br>
+                                                    <input type="text">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form__portion">
+                                                    <label for="lname">Last Name</label> <br>
+                                                    <input type="text">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col-lg-12">
+                                                <label for="address">Email</label> <br>
+                                                <input class="address__portion" type="email">
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col-lg-12">
+                                                <label for="number">Phone Number</label> <br>
+                                                <input class="address__portion" type="text" placeholder="+880 ">
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col-lg-12">
+                                                <label for="address">Address</label> <br>
+                                                <input class="address__portion" type="text">
+                                                <textarea  class="address__portion" type="text" name="" id="" cols="2" rows="2"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="row mb-3">
+                                            <div class="col-lg-12">
+                                                <label class="address__portion" for="city">City</label> <br>
+                                                <select  class="address__portion" id="city">
+                                                    <option value="cmc">Choose one...</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                    <option value="cmc">Dhaka</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="check__right">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="shipping__method">
+                                        <div class="shipping-title">
+                                            <p><i class="fas fa-truck"></i> Shipping Address</p>
+                                        </div>
+                                        <div class="shipping__process">
+                                            <div class="process">
+                                                <img src="assets/image/section__img/shippingimg1.jpg" alt="image">
+                                                <div class="desc">
+                                                    <p>The Mall Delivery Service (within Dhaka only)</p>
+                                                    <span>(BDT 21)</span>
+                                                </div>
+                                            </div>
+                                            <div class="process">
+                                                <img src="assets/image/section__img/shippingimg2.png" alt="image">
+                                                <div class="desc">
+                                                    <p>For Delivery Outside Dhaka</p>
+                                                    <span>(BDT 70)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="payment__method">
+                                        <div class="shipping__method">
+                                            <div class="shipping-title">
+                                                <p><i class="far fa-credit-card"></i></i> Payment Method </p>
+                                            </div>
+                                            <div class="payment__process">
+                                                <div class="pay__process">
+                                                    <input type="radio">
+                                                    <img src="assets/image/section__img/payment4.png" alt="image">
+                                                    <p> Pay by Cash on Delivery</p>
+                                                </div>
+                                            </div>
+                                            <div class="payment__process">
+                                                <div class="pay__process">
+                                                    <input type="radio">
+                                                    <img src="assets/image/section__img/payment4.png" alt="image">
+                                                    <p> Pay by Cash on Delivery</p>
+                                                </div>
+                                            </div>
+                                            <div class="payment__process">
+                                                <div class="pay__process">
+                                                    <input type="radio">
+                                                    <img src="assets/image/section__img/payment4.png" alt="image">
+                                                    <p> Pay by Cash on Delivery</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="order__summary">
+                                <div class="summary__title">
+                                    <p> <i class="fas fa-check"></i> ORDER SUMMARY</p>
+                                </div>
+                                <div class="ordered__pdct">
+                                    <div class="pdct__added">
+                                        <div class="ordered__left">
+                                            <div class="ordered__img">
+                                                <img src="assets/image/section__img/ordered__1.jpg" alt="image">
+                                            </div>
+                                            <div class="ordered__desc">
+                                                <p>Incepta NeoCare Baby Wipes - 80 wipes</p>
+                                                <span>BDT 190</span>
+                                            </div>
+                                        </div>
+                                        <div class="ordered__right">
+                                            <div class="count">
+                                                <div class="quantity">
+                                                    <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                                    <input name="quantity" type="text" class="quantity__input" value="1">
+                                                    <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <p>BDT 190</p>
+                                            </div>
+                                            <div class="remove">
+                                                <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdct__added">
+                                        <div class="ordered__left">
+                                            <div class="ordered__img">
+                                                <img src="assets/image/section__img/ordered__1.jpg" alt="image">
+                                            </div>
+                                            <div class="ordered__desc">
+                                                <p>Incepta NeoCare Baby Wipes - 80 wipes</p>
+                                                <span>BDT 190</span>
+                                            </div>
+                                        </div>
+                                        <div class="ordered__right">
+                                            <div class="count">
+                                                <div class="quantity">
+                                                    <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                                    <input name="quantity" type="text" class="quantity__input" value="1">
+                                                    <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <p>BDT 190</p>
+                                            </div>
+                                            <div class="remove">
+                                                <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdct__added">
+                                        <div class="ordered__left">
+                                            <div class="ordered__img">
+                                                <img src="assets/image/section__img/ordered__1.jpg" alt="image">
+                                            </div>
+                                            <div class="ordered__desc">
+                                                <p>Incepta NeoCare Baby Wipes - 80 wipes</p>
+                                                <span>BDT 190</span>
+                                            </div>
+                                        </div>
+                                        <div class="ordered__right">
+                                            <div class="count">
+                                                <div class="quantity">
+                                                    <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                                    <input name="quantity" type="text" class="quantity__input" value="1">
+                                                    <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <p>BDT 190</p>
+                                            </div>
+                                            <div class="remove">
+                                                <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdct__added">
+                                        <div class="ordered__left">
+                                            <div class="ordered__img">
+                                                <img src="assets/image/section__img/ordered__1.jpg" alt="image">
+                                            </div>
+                                            <div class="ordered__desc">
+                                                <p>Incepta NeoCare Baby Wipes - 80 wipes</p>
+                                                <span>BDT 190</span>
+                                            </div>
+                                        </div>
+                                        <div class="ordered__right">
+                                            <div class="count">
+                                                <div class="quantity">
+                                                    <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                                    <input name="quantity" type="text" class="quantity__input" value="1">
+                                                    <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <p>BDT 190</p>
+                                            </div>
+                                            <div class="remove">
+                                                <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pdct__added">
+                                        <div class="ordered__left">
+                                            <div class="ordered__img">
+                                                <img src="assets/image/section__img/ordered__1.jpg" alt="image">
+                                            </div>
+                                            <div class="ordered__desc">
+                                                <p>Incepta NeoCare Baby Wipes - 80 wipes</p>
+                                                <span>BDT 190</span>
+                                            </div>
+                                        </div>
+                                        <div class="ordered__right">
+                                            <div class="count">
+                                                <div class="quantity">
+                                                    <a href="#" class="quantity__minus"><span><i class="fas fa-minus"></i></span></a>
+                                                    <input name="quantity" type="text" class="quantity__input" value="1">
+                                                    <a href="#" class="quantity__plus"><span><i class="fas fa-plus"></i></span></a>
+                                                </div>
+                                            </div>
+                                            <div class="price">
+                                                <p>BDT 190</p>
+                                            </div>
+                                            <div class="remove">
+                                                <a href="#"><i class="fas fa-trash-alt"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="total__count">
+                                        <ul>
+                                            <li><span>Subtotal :</span> <span>2989/=</span></li>
+                                            <li><span>Shipping (+):</span> <span>70/=</span></li>
+                                            <li><span>Coupon Discount (-):</span> <span>0.00/=</span> </li>
+                                            <li><span><strong>TOTAL :</strong></span> <span><strong>3059/=</strong></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coupon__code">
+                                <form>
+                                    <input type="text" placeholder="Coupon Code">
+                                    <a href="#">ADD</a>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -710,7 +1062,7 @@
                     </div>
                     <div class="col-md-6">
                         <form>
-                            <input type="text" name="" id="" placeholder="Your E-mail"> <a href="#">></a>
+                            <input type="text" name="" id="" placeholder="Your E-mail"> <a href="#"></a>
                         </form>
                     </div>
                 </div>
